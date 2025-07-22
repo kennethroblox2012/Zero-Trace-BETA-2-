@@ -1,0 +1,824 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local kennethroblox2012sgui = Instance.new("ScreenGui")
+local Scanner = Instance.new("Frame")
+local Injector = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Opener = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local GUI = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local Frame_2 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local Frame_3 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local WIP = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Open1 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local DevFunGui = Instance.new("ScreenGui")
+local Frame_4 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Name = Instance.new("TextLabel")
+local CodeFrame = Instance.new("ImageLabel")
+local ExecFrame = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local HideFrame = Instance.new("ImageLabel")
+local TextButton_2 = Instance.new("TextButton")
+local WIP_2 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UI = Instance.new("Frame")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+
+--Properties:
+
+kennethroblox2012sgui.Name = "kennethroblox2012's gui"
+kennethroblox2012sgui.Parent = game.Workspace
+kennethroblox2012sgui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Scanner.Name = "Scanner"
+Scanner.Parent = kennethroblox2012sgui
+Scanner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scanner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scanner.BorderSizePixel = 0
+Scanner.Position = UDim2.new(0.120129883, 0, 0.326633155, 0)
+Scanner.Size = UDim2.new(0, 430, 0, 349)
+
+Injector.Name = "Injector"
+Injector.Parent = Scanner
+Injector.Active = false
+Injector.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+Injector.BackgroundTransparency = 0.390
+Injector.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Injector.BorderSizePixel = 0
+Injector.Position = UDim2.new(0.0995758772, 0, 0.654355824, 0)
+Injector.Size = UDim2.new(0, 353, 0, 106)
+Injector.Font = Enum.Font.LuckiestGuy
+Injector.Text = "Inject"
+Injector.TextColor3 = Color3.fromRGB(0, 0, 0)
+Injector.TextSize = 40.000
+Injector.TextWrapped = true
+
+UICorner.Parent = Injector
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 128, 253))}
+UIGradient.Parent = Scanner
+
+UICorner_2.Parent = Scanner
+
+TextLabel.Parent = Scanner
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0241299998, 0, 0.0356029086, 0)
+TextLabel.Size = UDim2.new(0, 419, 0, 124)
+TextLabel.Font = Enum.Font.LuckiestGuy
+TextLabel.Text = "Please Scan Backdoor / Check Dev Console if backdoor found or not."
+TextLabel.TextColor3 = Color3.fromRGB(85, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+
+UICorner_3.Parent = TextLabel
+
+Opener.Name = "Opener"
+Opener.Parent = Scanner
+Opener.Active = false
+Opener.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+Opener.BackgroundTransparency = 0.390
+Opener.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Opener.BorderSizePixel = 0
+Opener.Position = UDim2.new(0.246087506, 0, 0.390903771, 0)
+Opener.Size = UDim2.new(0, 226, 0, 80)
+Opener.Font = Enum.Font.LuckiestGuy
+Opener.Text = "Open GUI"
+Opener.TextColor3 = Color3.fromRGB(0, 0, 0)
+Opener.TextSize = 40.000
+Opener.TextWrapped = true
+
+UICorner_4.Parent = Opener
+
+GUI.Name = "GUI"
+GUI.Parent = Opener
+GUI.Active = true
+GUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GUI.BackgroundTransparency = 0.400
+GUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUI.BorderSizePixel = 0
+GUI.Position = UDim2.new(1.54289961, 0, -1.84373629, 0)
+GUI.Size = UDim2.new(0, 670, 0, 292)
+GUI.Visible = false
+
+UICorner_5.Parent = GUI
+
+TextLabel_2.Parent = GUI
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(85, 255, 255)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0773407444, 0, 0.76519233, 0)
+TextLabel_2.Size = UDim2.new(0, 295, 0, 48)
+TextLabel_2.Font = Enum.Font.LuckiestGuy
+TextLabel_2.Text = "Thank you for buying B) - kennethroblox2012"
+TextLabel_2.TextColor3 = Color3.fromRGB(85, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextWrapped = true
+
+UICorner_6.Parent = TextLabel_2
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 128, 253))}
+UIGradient_2.Parent = GUI
+
+TextLabel_3.Parent = GUI
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0101765646, 0, 0.0699868426, 0)
+TextLabel_3.Size = UDim2.new(0, 411, 0, 190)
+TextLabel_3.Font = Enum.Font.LuckiestGuy
+TextLabel_3.Text = "ZeroTrace Backdoor Scanner (BETA)"
+TextLabel_3.TextColor3 = Color3.fromRGB(85, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextWrapped = true
+
+UICorner_7.Parent = TextLabel_3
+
+Frame.Parent = GUI
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.400
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.00948258583, 0, -0.13388522, 0)
+Frame.Size = UDim2.new(0, 468, 0, 28)
+
+UICorner_8.Parent = Frame
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 128, 253))}
+UIGradient_3.Parent = Frame
+
+Frame_2.Parent = GUI
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundTransparency = 0.400
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.057681594, 0, -0.000323569926, 0)
+Frame_2.Size = UDim2.new(0, 29, 0, 292)
+
+UICorner_9.Parent = Frame_2
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 128, 253))}
+UIGradient_4.Parent = Frame_2
+
+Frame_3.Parent = GUI
+Frame_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BackgroundTransparency = 0.400
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(-0.000965175335, 0, 1.05104625, 0)
+Frame_3.Size = UDim2.new(0, 468, 0, 28)
+
+UICorner_10.Parent = Frame_3
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 128, 253))}
+UIGradient_5.Parent = Frame_3
+
+WIP.Name = "(WIP)"
+WIP.Parent = GUI
+WIP.Active = false
+WIP.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+WIP.BackgroundTransparency = 0.390
+WIP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WIP.BorderSizePixel = 0
+WIP.Position = UDim2.new(0.643137157, 0, 0.684755743, 0)
+WIP.Size = UDim2.new(0, 212, 0, 59)
+WIP.Font = Enum.Font.LuckiestGuy
+WIP.Text = "(WIP)"
+WIP.TextColor3 = Color3.fromRGB(0, 0, 0)
+WIP.TextScaled = true
+WIP.TextSize = 40.000
+WIP.TextWrapped = true
+
+UICorner_11.Parent = WIP
+
+Open1.Name = "Open1"
+Open1.Parent = GUI
+Open1.Active = false
+Open1.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+Open1.BackgroundTransparency = 0.390
+Open1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Open1.BorderSizePixel = 0
+Open1.Position = UDim2.new(0.643137157, 0, 0.112837911, 0)
+Open1.Size = UDim2.new(0, 212, 0, 59)
+Open1.Font = Enum.Font.LuckiestGuy
+Open1.Text = "Open RequireExecutor"
+Open1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open1.TextScaled = true
+Open1.TextSize = 40.000
+Open1.TextWrapped = true
+
+UICorner_12.Parent = Open1
+
+DevFunGui.Name = "Dev Fun Gui"
+DevFunGui.Parent = Open1
+DevFunGui.Enabled = false
+DevFunGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame_4.Parent = DevFunGui
+Frame_4.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+Frame_4.BackgroundTransparency = 0.300
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.125607774, 0, 0.195979893, 0)
+Frame_4.Size = UDim2.new(0, 528, 0, 270)
+
+UICorner_13.Parent = Frame_4
+
+Name.Name = "Name"
+Name.Parent = Frame_4
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 3
+Name.Size = UDim2.new(0, 294, 0, 74)
+Name.Font = Enum.Font.LuckiestGuy
+Name.Text = "KennethRoblox2012's Require Executor"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+CodeFrame.Name = "Code Frame"
+CodeFrame.Parent = Frame_4
+CodeFrame.BackgroundColor3 = Color3.fromRGB(176, 255, 216)
+CodeFrame.BackgroundTransparency = 0.300
+CodeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CodeFrame.Position = UDim2.new(0, 0, 0.222840264, 0)
+CodeFrame.Size = UDim2.new(0, 527, 0, 148)
+CodeFrame.Image = "rbxassetid://3570695787"
+CodeFrame.ImageColor3 = Color3.fromRGB(29, 29, 29)
+CodeFrame.ScaleType = Enum.ScaleType.Slice
+CodeFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+CodeFrame.SliceScale = 0.120
+
+ExecFrame.Name = "Exec Frame"
+ExecFrame.Parent = Frame_4
+ExecFrame.BackgroundColor3 = Color3.fromRGB(176, 255, 216)
+ExecFrame.BackgroundTransparency = 0.300
+ExecFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecFrame.Position = UDim2.new(0.0303030312, 0, 0.796914339, 0)
+ExecFrame.Size = UDim2.new(0, 176, 0, 52)
+ExecFrame.Image = "rbxassetid://3570695787"
+ExecFrame.ImageColor3 = Color3.fromRGB(29, 29, 29)
+ExecFrame.ScaleType = Enum.ScaleType.Slice
+ExecFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+ExecFrame.SliceScale = 0.120
+
+TextBox.Parent = Frame_4
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 9.000
+TextBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox.Position = UDim2.new(0, 0, 0.24506259, 0)
+TextBox.Size = UDim2.new(0, 528, 0, 128)
+TextBox.Font = Enum.Font.Unknown
+TextBox.PlaceholderColor3 = Color3.fromRGB(171, 171, 171)
+TextBox.PlaceholderText = "Script Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 100.000
+TextBox.TextWrapped = true
+
+TextButton.Parent = Frame_4
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 9.000
+TextButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton.Position = UDim2.new(0.0475990996, 0, 0.826643646, 0)
+TextButton.Size = UDim2.new(0, 156, 0, 36)
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+HideFrame.Name = "Hide Frame"
+HideFrame.Parent = Frame_4
+HideFrame.BackgroundColor3 = Color3.fromRGB(176, 255, 216)
+HideFrame.BackgroundTransparency = 0.300
+HideFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HideFrame.Position = UDim2.new(0.407196969, 0, 0.796914339, 0)
+HideFrame.Size = UDim2.new(0, 176, 0, 52)
+HideFrame.Visible = false
+HideFrame.Image = "rbxassetid://3570695787"
+HideFrame.ImageColor3 = Color3.fromRGB(29, 29, 29)
+HideFrame.ScaleType = Enum.ScaleType.Slice
+HideFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+HideFrame.SliceScale = 0.120
+
+TextButton_2.Parent = Frame_4
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 9.000
+TextButton_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton_2.Position = UDim2.new(0.424493045, 0, 0.826643646, 0)
+TextButton_2.Size = UDim2.new(0, 156, 0, 36)
+TextButton_2.Visible = false
+TextButton_2.Font = Enum.Font.Unknown
+TextButton_2.Text = "Hide Text From skids"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+WIP_2.Name = "(WIP)"
+WIP_2.Parent = GUI
+WIP_2.Active = false
+WIP_2.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+WIP_2.BackgroundTransparency = 0.390
+WIP_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WIP_2.BorderSizePixel = 0
+WIP_2.Position = UDim2.new(0.643137157, 0, 0.397084475, 0)
+WIP_2.Size = UDim2.new(0, 212, 0, 59)
+WIP_2.Font = Enum.Font.LuckiestGuy
+WIP_2.Text = "(WIP)"
+WIP_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+WIP_2.TextScaled = true
+WIP_2.TextSize = 40.000
+WIP_2.TextWrapped = true
+
+UICorner_14.Parent = WIP_2
+
+UI.Name = "UI"
+UI.Parent = Scanner
+UI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.BorderSizePixel = 0
+UI.Position = UDim2.new(-0.00232558139, 0, -0.385620803, 0)
+UI.Size = UDim2.new(0, 429, 0, 124)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 128, 253))}
+UIGradient_6.Parent = UI
+
+UICorner_15.Parent = UI
+
+TextLabel_4.Parent = UI
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0101765096, 0, -0.00210854318, 0)
+TextLabel_4.Size = UDim2.new(0, 419, 0, 124)
+TextLabel_4.Font = Enum.Font.LuckiestGuy
+TextLabel_4.Text = "ZeroTrace Backdoor Scanner"
+TextLabel_4.TextColor3 = Color3.fromRGB(85, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextWrapped = true
+
+UICorner_16.Parent = TextLabel_4
+
+-- Scripts:
+
+local function IHLEY_fake_script() -- kennethroblox2012sgui.Undetectable V1 
+	local script = Instance.new('LocalScript', kennethroblox2012sgui)
+
+	-- Disguise the script name (e.g., "PlayerUI")
+	script.Name = "PlayerUI"
+	
+	-- Create GUI (hidden in CoreGui)
+	local gui = Instance.new("ScreenGui")
+	gui.Name = "Menu" -- Generic name
+	gui.ResetOnSpawn = false
+	gui.Parent = game:GetService("CoreGui") -- Invisible to anti-cheat
+	
+	-- GUI design (customize as needed)
+	local frame = Instance.new("Frame")
+	frame.Size = UDim2.new(0, 300, 0, 200)
+	frame.Position = UDim2.new(0.5, -150, 0.5, -100)
+	frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+	frame.Parent = gui
+	
+	local label = Instance.new("TextLabel")
+	label.Text = "Secret Menu"
+	label.TextColor3 = Color3.new(1, 1, 1)
+	label.Size = UDim2.new(1, 0, 0, 40)
+	label.Parent = frame
+	
+	local button = Instance.new("TextButton")
+	button.Text = "Close"
+	button.Size = UDim2.new(0, 100, 0, 40)
+	button.Position = UDim2.new(0.5, -50, 0.8, -20)
+	button.Parent = frame
+	
+	-- Start with GUI hidden
+	gui.Enabled = false
+	
+	-- Toggle GUI with a key press (e.g., "P")
+	local userInputService = game:GetService("UserInputService")
+	userInputService.InputBegan:Connect(function(input, processed)
+		if not processed and input.KeyCode == Enum.KeyCode.P then
+			gui.Enabled = not gui.Enabled -- Toggle visibility
+		end
+	end)
+	
+	-- Close button logic
+	button.MouseButton1Click:Connect(function()
+		gui.Enabled = false
+	end)
+	
+end
+coroutine.wrap(IHLEY_fake_script)()
+local function BVLY_fake_script() -- Scanner.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Scanner)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(BVLY_fake_script)()
+local function QKMH_fake_script() -- Injector.Inject 
+	local script = Instance.new('LocalScript', Injector)
+
+	-- Backdoor Scanner (Manual Click Trigger, No Frame Removal)
+	local function issuspicious(name)
+		name = name:lower()
+		local susNames = {"remoteevent", "RemoteEvent", "backdoor", "exploit", "admin", "re", "cmd", "script"}
+		for _, sus in pairs(susNames) do
+			if string.find(name, sus) then
+				return true
+			end
+		end
+		return false
+	end
+	
+	-- Only prints will be visible in the console
+	local function stealthPrint(msg)
+		print(msg)
+	end
+	
+	-- Scan for backdoors in specified parents
+	local function scanForBackdoors(parents)
+		local foundBackdoors = false
+		for _, parent in pairs(parents) do
+			for _, obj in pairs(parent:GetDescendants()) do
+				if (obj:IsA("RemoteEvent") or obj:IsA("BindableEvent")) and issuspicious(obj.Name) then
+					foundBackdoors = true
+					stealthPrint("[Backdoor Scanner] Backdoor found: " .. obj:GetFullName())
+					task.wait(0.2) -- Delay to avoid detection
+				end
+			end
+		end
+		return foundBackdoors
+	end
+	
+	-- Connect to the click event (manual trigger)
+	script.Parent.MouseButton1Click:Connect(function()
+		stealthPrint("[Backdoor Scanner] v1 fully working ✅")
+		stealthPrint("--backdoor scanning--")
+	
+		-- Simulate progress (visible prints only)
+		for percent = 0, 100, 5 do
+			stealthPrint(string.format("[Backdoor Scanner] Scanning progress: %d%%", percent))
+			task.wait(0.1)
+		end
+	
+		-- Scan locations: Workspace, ReplicatedStorage, ServerScriptService, ServerStorage
+		local scanLocations = {
+			game:GetService("Workspace"),
+			game:GetService("ReplicatedStorage"),
+			game:GetService("ServerScriptService"),
+			game:GetService("ServerStorage")
+		}
+	
+		local foundBackdoors = scanForBackdoors(scanLocations)
+	
+		if not foundBackdoors then
+			stealthPrint("[Backdoor Scanner] No backdoors found.")
+			if script.Parent then
+				script.Parent.Text = "Scan Complete: No Backdoors Found"
+			end
+		else
+			-- Update GUI without removing the frame
+			if script.Parent then
+				script.Parent.Text = "Backdoor Detected!"
+				-- Optional: Show another GUI element (e.g., a warning label)
+				if script.Parent.Parent:FindFirstChild("WarningLabel") then
+					script.Parent.Parent.WarningLabel.Visible = true
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(QKMH_fake_script)()
+local function ADFDVBC_fake_script() -- Opener.LocalScript 
+	local script = Instance.new('LocalScript', Opener)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local guiFrame = script.Parent:FindFirstChild("GUI")
+		if guiFrame then
+			guiFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(ADFDVBC_fake_script)()
+local function UKWVMC_fake_script() -- GUI.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', GUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(UKWVMC_fake_script)()
+local function YWUDRX_fake_script() -- Open1.LocalScript 
+	local script = Instance.new('LocalScript', Open1)
+
+	local button = script.Parent
+	local gui = button:FindFirstChild("Dev Fun Gui")
+	
+	button.MouseButton1Click:Connect(function()
+		if gui and gui:IsA("ScreenGui") then
+			gui.Enabled = true
+		end
+	end)
+end
+coroutine.wrap(YWUDRX_fake_script)()
+local function PINTXV_fake_script() -- Frame_4.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Frame_4)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(PINTXV_fake_script)()
+local function AJTIQSY_fake_script() -- Frame_4.LocalScript 
+	local script = Instance.new('LocalScript', Frame_4)
+
+	
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+end
+coroutine.wrap(AJTIQSY_fake_script)()
+local function BOAFT_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ExecuteEvent:FireServer(script.Parent.Parent.TextBox.Text)
+		end)
+end
+coroutine.wrap(BOAFT_fake_script)()
+local function ZUQDMGM_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local textBox = script.Parent
+	local frame = textBox.Parent
+	local hideBtn = frame:FindFirstChild("HideBtn")
+	local hideRemote = frame:FindFirstChild("HideRemote")
+	
+	if hideBtn and hideRemote then
+		hideBtn.MouseButton1Click:Connect(function()
+			textBox.Visible = false
+			hideRemote:FireServer() -- optional, just triggers something server-side if needed
+		end)
+	end
+end
+coroutine.wrap(ZUQDMGM_fake_script)()
+local function QQZGATR_fake_script() -- UI.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', UI)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(QQZGATR_fake_script)()
